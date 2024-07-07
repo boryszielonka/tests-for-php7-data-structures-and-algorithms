@@ -1,0 +1,26 @@
+{
+    "name": "boryszielonka/tests-for-php7-data-structures-and-algorithms",
+    "description": "The tests for the code examples from the book \"PHP 7 Data Structures and Algorithms\"",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^11.2",
+        "php": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BorysZielonka\\Php7DataStructuresAlgorithms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "BorysZielonka\\Php7DataStructuresAlgorithms\\": "tests/",
+            "BorysZielonka\\Php7DataStructuresAlgorithms\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Borys Zielonka"
+        }
+    ],
+    "require": {}
+}
