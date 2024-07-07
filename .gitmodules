@@ -1,0 +1,3 @@
+[submodule "book_examples"]
+	path = book_examples
+	url = https://github.com/PacktPublishing/PHP7-Data-Structures-and-Algorithms
